@@ -1,0 +1,20 @@
+{
+  "name": "whatsapp-handshake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:w": "mocha -w"
+  },
+  "author": "whatsappsdk",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^10.3.0",
+    "socket-async": "^1.0.1"
+  },
+  "dependencies": {
+    "curve25519-n": "^1.2.1",
+    "libsignal-protocol-typescript": "^0.0.16"
+  }
+}
