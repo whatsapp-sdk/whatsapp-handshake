@@ -226,7 +226,7 @@ class HandShake {
     this.handshakestate.switch(
       new FallbackPatternModifier().modify(new XXHandshakePattern()),
       true,
-      this.HEADER,
+      this.header,
       this.clientStaticKeyPair
     );
     const payload_buffer = [];
